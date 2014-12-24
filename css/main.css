@@ -1,0 +1,68 @@
+#map {
+	width: 820px;
+	height: 500px;
+}
+#map_date{
+	position: absolute;
+	top: 80px;
+	right: 500px;
+	color: #fff;
+	background-color: rgba(0,0,0,0.8);
+	padding: 10px;
+	font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+   	font-weight: 300;
+}
+
+line{
+	stroke: #000;
+}
+
+form.vic-select{
+/*	float: right;
+	right: 20px;
+	top: 200px;
+	position: absolute;*/
+}
+g.inactive{
+	pointer-events: none;
+}
+g.active{
+	pointer-events: auto;
+}
+
+.bio{
+	position: absolute;
+	top: 10px;
+	right: 20px;
+	width: 400px;
+	visibility: hidden;
+}
+
+.bio img{
+	width:50%;
+	float: right;
+	height:auto;
+	padding: 10px;
+	margin-top: 40px;
+}
+label img{
+	width: 100px;
+	height: auto;
+	margin-top: 3px;
+}
+label img:hover{
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+	opacity: 1;
+}
+label > input{ /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+.grey{
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	opacity: 0.5;
+}
